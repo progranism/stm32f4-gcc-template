@@ -1,4 +1,4 @@
-This project provides are template for getting up and running with GCC and the STM32F4Discovery kit.
+This project provides a template for getting up and running with GCC and the STM32F4Discovery kit.
 
 
 It is also compatible with Eclipse. Set up Eclipse as explained here:
@@ -26,7 +26,7 @@ And then start GDB:
 
 And in GDB:
 	target remote :3333
-	monitor reset halt
+	monitor halt
 	load
 	monitor reset init
 
